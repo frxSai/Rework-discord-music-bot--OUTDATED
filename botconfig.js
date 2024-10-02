@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || "/", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", // Support Server Link
-  Token: process.env.Token || "OTU1ODAzMDk2Mjg0NTUzMjU2.GQMg4p.UMhLAsnzles2CG40Wxe33lKt13jNri4kFrcGQY", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "955803096284553256", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "6kZ6IYAuHF7aRTo5EHtINNaZYvnQoEr3", // Discord Client Secret
+  Token: process.env.Token || " ", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || " ", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || " ", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
@@ -39,7 +39,7 @@ module.exports = {
   },
   // Spotify Integration, allows you to enter a spotify link.
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "3f91e82052114c9eb6fa34f616a9af69", // Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "b24e111546a247f59729be636e21dd48", // Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || " ", // Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || " ", // Spotify Client Secret
   },
 };
